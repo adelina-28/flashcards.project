@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Study</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FlashMaster</div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="welcome-section">
+            <h1>Welcome to FlashMaster</h1>
+            <p>Your ultimate study companion for effective learning</p>
+        </section>
+
+        <section class="topics-section">
+            <h2>Available Topics</h2>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <h3>Mathematics</h3>
+                    <p>Algebra, Calculus, Statistics</p>
+                    <button class="study-btn">Start Studying</button>
+                </div>
+                <div class="topic-card">
+                    <h3>Science</h3>
+                    <p>Biology, Chemistry, Physics</p>
+                    <button class="study-btn">Start Studying</button>
+                </div>
+                <div class="topic-card">
+                    <h3>Languages</h3>
+                    <p>English, Spanish, French</p>
+                    <button class="study-btn">Start Studying</button>
+                </div>
+                <div class="topic-card">
+                    <h3>History</h3>
+                    <p>World History, US History</p>
+                    <button class="study-btn">Start Studying</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="flashcard-section">
+            <div class="flashcard">
+                <div class="flashcard-inner">
+                    <div class="flashcard-front">
+                        <h3>Question</h3>
+                        <p>Click to reveal answer</p>
+                    </div>
+                    <div class="flashcard-back">
+                        <h3>Answer</h3>
+                        <p>This is the answer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flashcard-controls">
+                <button id="prev-btn">Previous</button>
+                <button id="flip-btn">Flip Card</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FlashMaster. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
